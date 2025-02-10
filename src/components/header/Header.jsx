@@ -13,7 +13,7 @@ const Header = () => {
           <Flex className="items-center justify-between">
             <Flex className="items-center">
               <h4 className="font-poppins font-semibold text-sm text-headerFont-01">
-                Mon-Thu: <span className="text-white"> 9:00 AM - 5:30 PM</span>
+                Mon-Thu: <span className="ml-1 text-white"> 9:00 AM - 5:30 PM</span>
               </h4>
               <Link className="ml-1.5 text-white">
                 <MdKeyboardArrowDown />
@@ -21,26 +21,26 @@ const Header = () => {
             </Flex>
             <div>
               <h4 className="font-poppins font-semibold text-sm text-headerFont-01">
-                Visit our showroom in 101 Street, City Dhaka 1311.{" "}
+                Visit our showroom in 101 Street, City Dhaka 1311.
                 <Link to="/Contact">
-                  <span className="text-white">
+                  <span className="ml-2 text-white">
                     <u>Contact Us</u>
                   </span>
                 </Link>
               </h4>
             </div>
-            <Flex className="items-center">
+            <Flex className="items-center gap-3">
               <div className="font-poppins font-semibold text-sm text-white">
                 Call Us: +8809696365626
               </div>
-              <div className="ml-3 flex">
+              <Flex className="flex items-center gap-1.5">
                 <Link to="https://www.facebook.com/" className="text-white">
                   <FaSquareFacebook />
                 </Link>
-                <Link to="https://www.linkedin.com/" className="ml-1.5 text-white">
+                <Link to="https://www.linkedin.com/" className="text-white">
                   <FaLinkedin />
                 </Link>
-              </div>
+              </Flex>
             </Flex>
           </Flex>
         </Container>
