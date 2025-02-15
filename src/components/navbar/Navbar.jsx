@@ -19,7 +19,7 @@ const Navbar = () => {
   ];
   return (
     <>
-      <nav className="py-6 bg-white">
+      <nav className="py-7 bg-white">
         <Container>
           <Flex className="items-center justify-between">
             <Image to="/" src={Logo} />
@@ -41,9 +41,7 @@ const Navbar = () => {
                 <span className="absolute -top-2 -right-2 z-10 font-DM font-semibold text-xs text-white">2</span>
                 <FiShoppingCart className="text-xl" />
               </Link>
-              <Link className="ml-8">
-                <img className="block h-9 w-9 rounded-full ring-2 ring-headerFont-01" src={Prvz} alt="Profile Image" />
-              </Link>
+              <Image className="ml-8 block h-9 w-9 rounded-full ring-2 ring-headerFont-01" src={Prvz}/>
             </Flex>
           </Flex>
         </Container>

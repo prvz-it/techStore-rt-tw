@@ -1,10 +1,12 @@
 import React from "react";
 import { Link } from "react-router-dom";
 
-const Image = ({to, src}) => {
+const Image = ({classLink, className, src}) => {
   return (
-    <Link to={to}>
-      <img src={src} alt={src} />
+    <Link className={`${classLink}`}>
+      <picture>
+        <img className={`${className}`} src={src} alt={src} />
+      </picture>
     </Link>
   );
 };
