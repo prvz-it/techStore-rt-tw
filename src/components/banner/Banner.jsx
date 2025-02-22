@@ -24,7 +24,7 @@ function SamplePrevArrow(props) {
   const { onClick } = props;
   return (
     <div
-      className="absolute top-1/2 left-0 -translate-y-1/2 text-white z-50 cursor-pointer w-8 h-10 rounded-tr-3xl rounded-br-3xl flex items-center justify-center bg-[#517DD4]/50"
+      className="absolute top-1/2 left-0 -translate-y-1/2 text-white z-10 cursor-pointer w-8 h-10 rounded-tr-3xl rounded-br-3xl flex items-center justify-center bg-[#517DD4]/50"
       onClick={onClick}
     >
       <FaChevronLeft />

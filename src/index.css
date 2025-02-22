@@ -11,6 +11,8 @@
   --color-headerBG-01: #020202;
   --color-headerFont-01: #a2a6b0;
   --color-button: #0156ff;
+
+  --drop-shadow-mega: 0 5px 5px #00000010;
 }
 
 /* CustomAfter a CSS className */

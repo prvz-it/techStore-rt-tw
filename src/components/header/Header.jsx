@@ -39,7 +39,7 @@ const Header = () => {
             </div>
             <div className="ml-3 mt-3">
               <h5 className="font-poppins font-semibold text-sm text-black">
-                Phone : <span className="font-normal text-button"><Link to="tel:+8809696365626">+8809696365626</Link></span>
+                Phones : <span className="font-normal text-button"><Link to="tel:+8809696365626">+8809696365626</Link></span>
               </h5>
               <h5 className="font-poppins font-semibold text-sm text-black">
                 E-mail : <span className="font-normal text-button"><Link to="mailto:parvez.rzk.bd@gmail.com">parvez.rzk.bd@gmail.com</Link></span>
