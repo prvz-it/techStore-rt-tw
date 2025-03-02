@@ -15,7 +15,7 @@ const FooterTop = () => {
             <div>
               <Flex className="items-center justify-center">
                 <Flex className="items-center justify-center w-12 h-12 rounded-full bg-button">
-                  <Link className="text-3xl text-white">
+                  <Link to="/" className="text-3xl text-white">
                     <RiCustomerService2Fill />
                   </Link>
                 </Flex>
@@ -28,7 +28,7 @@ const FooterTop = () => {
             <div>
               <Flex className="items-center justify-center">
                 <Flex className="items-center justify-center w-12 h-12 rounded-full bg-button">
-                  <Link className="text-3xl text-white">
+                  <Link to="/" className="text-3xl text-white">
                     <MdAccountCircle />
                   </Link>
                 </Flex>
@@ -41,7 +41,7 @@ const FooterTop = () => {
             <div>
               <Flex className="items-center justify-center">
                 <Flex className="items-center justify-center w-12 h-12 rounded-full bg-button">
-                  <Link className="text-3xl text-white">
+                  <Link to="/" className="text-3xl text-white">
                     <IoPricetagsSharp />
                   </Link>
                 </Flex>

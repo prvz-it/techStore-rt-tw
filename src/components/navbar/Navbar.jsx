@@ -14,6 +14,7 @@ const Navbar = () => {
   let navbarMenu = MenuData;
 
   let [show, setShow] = useState(false);
+  let [view, setView] = useState(false);
 
   let manageSearch = ()=>{
     setShow(!show)
@@ -71,9 +72,33 @@ const Navbar = () => {
                 <span className="absolute -top-2 -right-2 z-10 font-DM font-semibold text-xs text-white">2</span>
                 <FiShoppingCart className="text-xl" />
               </Link>
-              <Image className="ml-4 block h-9 w-9 rounded-full ring-2 ring-headerFont-01" src={Prvz}/>
+              <div onClick={() => setView(!view)} >
+                <Image className="ml-4 block h-9 w-9 rounded-full ring-2 ring-headerFont-01" src={Prvz}/>
+              </div>
             </Flex>
           </Flex>
+          <div className={`${view ? "opacity-100 visible duration-300" : "opacity-0 invisible duration-300"} w-[232px] py-3 border-2 border-[#CACDD8] bg-white drop-shadow-mega absolute right-0 top-full -translate-y-4 z-10`}>
+            <div className="shape w-3 h-3 rounded-sm border-t-2 border-l-2 border-[#CACDD8] bg-white rotate-45 absolute right-2 -top-1.5"></div>
+              <div className="profile mx-8 py-3">
+                <div>
+                  <Link to="/">
+                    <h3 className="my-1.5 font-poppins font-semibold text-sm leading-7 text-black">My  Account</h3>
+                  </Link>
+                  <Link to="/">
+                    <h3 className="my-1.5 font-poppins font-semibold text-sm leading-7 text-black">My Wish List (0)</h3>
+                  </Link>
+                  <Link to="/">
+                    <h3 className="my-1.5 font-poppins font-semibold text-sm leading-7 text-black">Compare (0)</h3>
+                  </Link>
+                  <Link to="/">
+                    <h3 className="my-1.5 font-poppins font-semibold text-sm leading-7 text-black">Create an Account</h3>
+                  </Link>
+                  <Link to="/">
+                    <h3 className="my-1.5 font-poppins font-semibold text-sm leading-7 text-black">Sign In</h3>
+                  </Link>
+                </div>
+            </div>
+          </div>
         </Container>
       </nav>
     </>

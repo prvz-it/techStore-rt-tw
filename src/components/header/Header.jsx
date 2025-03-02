@@ -12,7 +12,7 @@ const Header = () => {
     <>
       <header className="bg-headerBG-01">
         <Container className="relative py-2">
-          <div className={`${show ? "opacity-100 visible duration-300" : "opacity-0 invisible duration-300"} w-[262px] py-3 border-2 border-[#CACDD8] bg-white absolute left-0 top-full translate-y-1.5 z-10`}>
+          <div className={`${show ? "opacity-100 visible duration-300" : "opacity-0 invisible duration-300"} w-[262px] py-3 border-2 border-[#CACDD8] bg-white drop-shadow-mega absolute left-0 top-full translate-y-1.5 z-10`}>
             <div className="shape w-3 h-3 rounded-sm border-t-2 border-l-2 border-[#CACDD8] bg-white rotate-45 absolute left-6 -top-1.5"></div>
             <div className="time px-2.5 pb-3 flex border-b-2 border-[#CACDD8]">
               <FaRegClock className="mt-1.5 text-2xl text-button" />
