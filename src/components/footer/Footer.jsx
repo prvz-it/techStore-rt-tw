@@ -4,7 +4,7 @@ import { FaSquareFacebook, FaLinkedin } from "react-icons/fa6";
 import paypal from "../../assets/paypal.png";
 import visa from "../../assets/visa.png";
 import master from "../../assets/master.png";
-import american from "../../assets/american.png";
+import Exp from "../../assets/Exp.png";
 import Container from "../../layer/Container";
 import Image from "../../layer/Image";
 import Flex from "../../layer/Flex";
@@ -129,7 +129,7 @@ const Footer = () => {
                <Image src={master}/>
               </Link>
               <Link  className="w-8.5 h-5.5 rounded-sm bg-white flex items-center justify-center">
-               <Image src={american}/>
+               <Image src={Exp}/>
               </Link>
             </Flex>
             <Flex className="flex items-center gap-2">
